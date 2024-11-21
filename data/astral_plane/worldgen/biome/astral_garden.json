@@ -113,7 +113,8 @@
         "astral_plane:light_piler",
         "minecraft:flower_pale_garden",
         "minecraft:patch_grass_forest",
-        "minecraft:patch_sugar_cane"
+        "minecraft:patch_sugar_cane",
+        "astral_plane:wither_rose"
       ],
       []
     ]

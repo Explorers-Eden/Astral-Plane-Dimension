@@ -43,6 +43,16 @@
                 "waterlogged": "false"
               }
             }
+          },
+          {
+            "weight": 5,
+            "data": {
+              "Name": "minecraft:light",
+              "Properties": {
+                "level": "8",
+                "waterlogged": "false"
+              }
+            }
           }
         ]
       }
