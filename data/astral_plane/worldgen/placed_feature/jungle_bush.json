@@ -1,5 +1,5 @@
 {
-	"feature": "nmr:jungle_bush",
+	"feature": "astral_plane:jungle_bush",
 	"placement": [
 		{
 			"type": "minecraft:random_offset",

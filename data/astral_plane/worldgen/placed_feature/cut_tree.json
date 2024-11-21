@@ -1,5 +1,5 @@
 {
-	"feature": "nmr:cut_tree",
+	"feature": "astral_plane:cut_tree",
 	"placement": [
 	  {
 		"type": "minecraft:random_offset",

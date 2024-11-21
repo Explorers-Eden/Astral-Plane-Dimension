@@ -1,210 +1,173 @@
 {
-    "temperature": 1,
-    "downfall": 0.4,
-    "has_precipitation": false,
-    "creature_spawn_probability": 0.01,
-    "effects": {
-      "sky_color": 206435,
-      "fog_color": 1979223,
-      "water_color": 1907484,
-      "water_fog_color": 3355443,
-      "grass_color": 4933961,
-      "foliage_color": 2697513,
-      "mood_sound": {
-        "sound": "minecraft:ambient.cave",
-        "tick_delay": 6000,
-        "block_search_extent": 8,
-        "offset": 2
-      },
-      "music": {
-        "sound": "minecraft:music.overworld.deep_dark",
-        "min_delay": 12000,
-        "max_delay": 24000,
-        "replace_current_music": true
-      },
-      "particle": {
-        "options": {
-          "type": "sculk_soul"
-        },
-        "probability": 0.001
-      }
+  "temperature": 1,
+  "downfall": 0.4,
+  "has_precipitation": false,
+  "creature_spawn_probability": 0.01,
+  "effects": {
+    "sky_color": 206435,
+    "fog_color": 1979223,
+    "water_color": 1907484,
+    "water_fog_color": 3355443,
+    "grass_color": 4933961,
+    "foliage_color": 2697513,
+    "ambient_sound": "minecraft:ambient.basalt_deltas.loop",
+    "mood_sound": {
+      "sound": "minecraft:ambient.basalt_deltas.mood",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2
     },
-    "spawners": {
-      "ambient": [],
-      "axolotls": [],
-      "creature": [
-      ],
-      "misc": [],
-      "monster": [
-        {
-          "type": "minecraft:vex",
-          "weight": 7,
-          "minCount": 1,
-          "maxCount": 2
-        },
-        {
-          "type": "minecraft:spider",
-          "weight": 10,
-          "minCount": 1,
-          "maxCount": 2
-        },
-        {
-          "type": "minecraft:zombie",
-          "weight": 10,
-          "minCount": 1,
-          "maxCount": 2
-        },
-        {
-          "type": "minecraft:zombie_villager",
-          "weight": 10,
-          "minCount": 1,
-          "maxCount": 2
-        },
-        {
-          "type": "minecraft:skeleton",
-          "weight": 10,
-          "minCount": 1,
-          "maxCount": 2
-        },
-        {
-          "type": "minecraft:bogged",
-          "weight": 10,
-          "minCount": 1,
-          "maxCount": 2
-        },
-        {
-          "type": "minecraft:creeper",
-          "weight": 10,
-          "minCount": 1,
-          "maxCount": 2
-        },
-        {
-          "type": "minecraft:slime",
-          "weight": 10,
-          "minCount": 1,
-          "maxCount": 2
-        },
-        {
-          "type": "minecraft:enderman",
-          "weight": 10,
-          "minCount": 1,
-          "maxCount": 2
-        },
-        {
-          "type": "minecraft:witch",
-          "weight": 10,
-          "minCount": 1,
-          "maxCount": 2
-        },
-        {
-          "type": "minecraft:drowned",
-          "weight": 10,
-          "minCount": 1,
-          "maxCount": 2
-        },
-        {
-          "type": "minecraft:guardian",
-          "weight": 10,
-          "minCount": 1,
-          "maxCount": 2
-        },
-        {
-          "type": "minecraft:ghast",
-          "weight": 10,
-          "minCount": 1,
-          "maxCount": 2
-        },
-        {
-          "type": "minecraft:stray",
-          "weight": 10,
-          "minCount": 1,
-          "maxCount": 2
-        },
-        {
-          "type": "minecraft:pillager",
-          "weight": 10,
-          "minCount": 1,
-          "maxCount": 2
-        },
-        {
-          "type": "minecraft:cave_spider",
-          "weight": 10,
-          "minCount": 1,
-          "maxCount": 2
-        },
-        {
-          "type": "minecraft:evoker",
-          "weight": 10,
-          "minCount": 1,
-          "maxCount": 2
-        },
-        {
-          "type": "minecraft:vindicator",
-          "weight": 10,
-          "minCount": 1,
-          "maxCount": 2
-        },
-        {
-          "type": "minecraft:shulker",
-          "weight": 10,
-          "minCount": 1,
-          "maxCount": 2
-        },
-        {
-          "type": "minecraft:magma_cube",
-          "weight": 10,
-          "minCount": 1,
-          "maxCount": 2
-        },
-        {
-          "type": "minecraft:blaze",
-          "weight": 10,
-          "minCount": 1,
-          "maxCount": 2
-        },
-        {
-          "type": "minecraft:breeze",
-          "weight": 10,
-          "minCount": 1,
-          "maxCount": 2
+    "additions_sound": {
+      "sound": "minecraft:ambient.basalt_deltas.additions",
+      "tick_chance": 0.0111
+    },
+    "music": [
+      {
+        "weight": 1,
+        "data": {
+          "sound": "minecraft:music.nether.basalt_deltas",
+          "min_delay": 12000,
+          "max_delay": 24000,
+          "replace_current_music": false
         }
-      ],
-      "underground_water_creature": [],
-      "water_ambient": [],
-      "water_creature": []
+      }
+    ],
+    "music_volume": 1,
+    "particle": {
+      "options": {
+        "type": "minecraft:sculk_soul"
+      },
+      "probability": 0.001
+    }
+  },
+  "spawners": {
+    "ambient": [
+      {
+        "type": "minecraft:bat",
+        "weight": 10,
+        "minCount": 5,
+        "maxCount": 5
+      },
+      {
+        "type": "minecraft:cat",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 2
+      }
+    ],
+    "axolotls": [],
+    "creature": [],
+    "misc": [],
+    "monster": [
+      {
+        "type": "minecraft:zombified_piglin",
+        "weight": 1,
+        "minCount": 2,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:hoglin",
+        "weight": 9,
+        "minCount": 3,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:piglin",
+        "weight": 5,
+        "minCount": 3,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:piglin_brute",
+        "weight": 2,
+        "minCount": 1,
+        "maxCount": 3
+      },
+      {
+        "type": "minecraft:endermite",
+        "weight": 3,
+        "minCount": 2,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:blaze",
+        "weight": 2,
+        "minCount": 2,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:magma_cube",
+        "weight": 2,
+        "minCount": 2,
+        "maxCount": 4
+      }
+    ],
+    "underground_water_creature": [],
+    "water_ambient": [],
+    "water_creature": []
+  },
+  "spawn_costs": {
+    "minecraft:piglin_brute": {
+      "energy_budget": 0.12,
+      "charge": 1
     },
-    "spawn_costs": {},
-    "carvers": {
-      "air": [
-        "minecraft:cave",
-        "minecraft:canyon",
-        "minecraft:nether_cave"
-      ]
+    "minecraft:blaze": {
+      "energy_budget": 0.12,
+      "charge": 1
     },
-    "features": [
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [
-          "nmr:small_tree",
-          "nmr:jungle_bush"
-        ],
-        [
-          "nmr:small_tree",
-          "nmr:cut_tree",
-          "nmr:shrooms"
-        ],
-        [
-          "nmr:piler",
-          "nmr:small_tree_w_mud",
-          "nmr:dead_corals",
-          "nmr:jungle_grass"
-        ]
+    "minecraft:cat": {
+      "energy_budget": 0.12,
+      "charge": 1
+    }
+  },
+  "carvers": [
+      "minecraft:canyon",
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:nether_cave"
+    ],
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:ore_tuff",
+      "minecraft:ore_coal_upper",
+      "minecraft:ore_coal_lower",
+      "minecraft:ore_iron_upper",
+      "minecraft:ore_iron_middle",
+      "minecraft:ore_iron_small",
+      "minecraft:ore_gold",
+      "minecraft:ore_gold_lower",
+      "minecraft:ore_redstone",
+      "minecraft:ore_redstone_lower",
+      "minecraft:ore_diamond",
+      "minecraft:ore_diamond_medium",
+      "minecraft:ore_diamond_large",
+      "minecraft:ore_diamond_buried",
+      "minecraft:ore_lapis",
+      "minecraft:ore_lapis_buried",
+      "minecraft:ore_copper",
+      "minecraft:underwater_magma"
+    ],
+    [],
+    [
+      "astral_plane:small_tree",
+      "astral_plane:jungle_bush"
+    ],
+    [
+      "astral_plane:small_tree",
+      "astral_plane:cut_tree",
+      "astral_plane:shrooms"
+    ],
+    [
+      "astral_plane:piler",
+      "astral_plane:small_tree_w_mud",
+      "astral_plane:dead_corals",
+      "astral_plane:jungle_grass"
     ]
-  }
-  
+  ]
+}

@@ -4,10 +4,10 @@
       "features": [
         {
           "chance": 0.5,
-          "feature": "nmr:forest_trees_tall"
+          "feature": "astral_plane:forest_trees_tall"
         }
       ],
-      "default": "nmr:forest_trees_small"
+      "default": "astral_plane:forest_trees_small"
     }
   }
   

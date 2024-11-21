@@ -2,7 +2,7 @@
   "type": "eden:astral_plane",
   "generator": {
     "type": "minecraft:noise",
-    "settings": "eden:astral_plane",
+    "settings": "astral_plane:base",
 	  "biome_source": {
       "type": "minecraft:multi_noise",
       "biomes": [
@@ -3214,6 +3214,546 @@
               0.7666667,
               1
             ]
+          }
+        },
+        {
+          "biome": "astral_plane:astral_garden",
+          "parameters": {
+            "temperature": [
+              -0.15,
+              0.2
+            ],
+            "humidity": [
+              0.3,
+              1
+            ],
+            "continentalness": [
+              0.3,
+              1
+            ],
+            "erosion": [
+              -0.7799,
+              -0.375
+            ],
+            "weirdness": [
+              0.2666,
+              0.4
+            ],
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "astral_plane:astral_garden",
+          "parameters": {
+            "temperature": [
+              -0.15,
+              0.2
+            ],
+            "humidity": [
+              0.3,
+              1
+            ],
+            "continentalness": [
+              0.3,
+              1
+            ],
+            "erosion": [
+              -0.7799,
+              -0.375
+            ],
+            "weirdness": [
+              0.2666,
+              0.4
+            ],
+            "depth": 1,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "astral_plane:astral_garden",
+          "parameters": {
+            "temperature": [
+              -0.15,
+              0.2
+            ],
+            "humidity": [
+              0.3,
+              1
+            ],
+            "continentalness": [
+              0.3,
+              1
+            ],
+            "erosion": [
+              -0.375,
+              -0.2225
+            ],
+            "weirdness": [
+              0.2666,
+              0.4
+            ],
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "astral_plane:astral_garden",
+          "parameters": {
+            "temperature": [
+              -0.15,
+              0.2
+            ],
+            "humidity": [
+              0.3,
+              1
+            ],
+            "continentalness": [
+              0.3,
+              1
+            ],
+            "erosion": [
+              -0.375,
+              -0.2225
+            ],
+            "weirdness": [
+              0.2666,
+              0.4
+            ],
+            "depth": 1,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "astral_plane:astral_garden",
+          "parameters": {
+            "temperature": [
+              -0.15,
+              0.2
+            ],
+            "humidity": [
+              0.3,
+              1
+            ],
+            "continentalness": [
+              0.03,
+              1
+            ],
+            "erosion": [
+              -0.375,
+              -0.2225
+            ],
+            "weirdness": [
+              0.4,
+              0.5666
+            ],
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "astral_plane:astral_garden",
+          "parameters": {
+            "temperature": [
+              -0.15,
+              0.2
+            ],
+            "humidity": [
+              0.3,
+              1
+            ],
+            "continentalness": [
+              0.03,
+              1
+            ],
+            "erosion": [
+              -0.375,
+              -0.2225
+            ],
+            "weirdness": [
+              0.4,
+              0.5666
+            ],
+            "depth": 1,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "astral_plane:astral_garden",
+          "parameters": {
+            "temperature": [
+              -0.15,
+              0.2
+            ],
+            "humidity": [
+              0.3,
+              1
+            ],
+            "continentalness": [
+              0.3,
+              1
+            ],
+            "erosion": [
+              -0.2225,
+              0.05
+            ],
+            "weirdness": [
+              0.4,
+              0.5666
+            ],
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "astral_plane:astral_garden",
+          "parameters": {
+            "temperature": [
+              -0.15,
+              0.2
+            ],
+            "humidity": [
+              0.3,
+              1
+            ],
+            "continentalness": [
+              0.3,
+              1
+            ],
+            "erosion": [
+              -0.2225,
+              0.05
+            ],
+            "weirdness": [
+              0.4,
+              0.5666
+            ],
+            "depth": 1,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "astral_plane:astral_garden",
+          "parameters": {
+            "temperature": [
+              -0.15,
+              0.2
+            ],
+            "humidity": [
+              0.3,
+              1
+            ],
+            "continentalness": [
+              0.03,
+              1
+            ],
+            "erosion": [
+              -0.375,
+              -0.2225
+            ],
+            "weirdness": [
+              0.5666,
+              0.7666
+            ],
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "astral_plane:astral_garden",
+          "parameters": {
+            "temperature": [
+              -0.15,
+              0.2
+            ],
+            "humidity": [
+              0.3,
+              1
+            ],
+            "continentalness": [
+              0.03,
+              1
+            ],
+            "erosion": [
+              -0.375,
+              -0.2225
+            ],
+            "weirdness": [
+              0.5666,
+              0.7666
+            ],
+            "depth": 1,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "astral_plane:astral_garden",
+          "parameters": {
+            "temperature": [
+              -0.15,
+              0.2
+            ],
+            "humidity": [
+              0.3,
+              1
+            ],
+            "continentalness": [
+              0.3,
+              1
+            ],
+            "erosion": [
+              -0.2225,
+              0.05
+            ],
+            "weirdness": [
+              0.5666,
+              0.7666
+            ],
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "astral_plane:astral_garden",
+          "parameters": {
+            "temperature": [
+              -0.15,
+              0.2
+            ],
+            "humidity": [
+              0.3,
+              1
+            ],
+            "continentalness": [
+              0.3,
+              1
+            ],
+            "erosion": [
+              -0.2225,
+              0.05
+            ],
+            "weirdness": [
+              0.5666,
+              0.7666
+            ],
+            "depth": 1,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "astral_plane:astral_garden",
+          "parameters": {
+            "temperature": [
+              -0.15,
+              0.2
+            ],
+            "humidity": [
+              0.3,
+              1
+            ],
+            "continentalness": [
+              0.03,
+              1
+            ],
+            "erosion": [
+              -0.375,
+              -0.2225
+            ],
+            "weirdness": [
+              0.7666,
+              0.9333
+            ],
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "astral_plane:astral_garden",
+          "parameters": {
+            "temperature": [
+              -0.15,
+              0.2
+            ],
+            "humidity": [
+              0.3,
+              1
+            ],
+            "continentalness": [
+              0.03,
+              1
+            ],
+            "erosion": [
+              -0.375,
+              -0.2225
+            ],
+            "weirdness": [
+              0.7666,
+              0.9333
+            ],
+            "depth": 1,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "astral_plane:astral_garden",
+          "parameters": {
+            "temperature": [
+              -0.15,
+              0.2
+            ],
+            "humidity": [
+              0.3,
+              1
+            ],
+            "continentalness": [
+              0.3,
+              1
+            ],
+            "erosion": [
+              -0.2225,
+              0.05
+            ],
+            "weirdness": [
+              0.7666,
+              0.9333
+            ],
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "astral_plane:astral_garden",
+          "parameters": {
+            "temperature": [
+              -0.15,
+              0.2
+            ],
+            "humidity": [
+              0.3,
+              1
+            ],
+            "continentalness": [
+              0.3,
+              1
+            ],
+            "erosion": [
+              -0.2225,
+              0.05
+            ],
+            "weirdness": [
+              0.7666,
+              0.9333
+            ],
+            "depth": 1,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "astral_plane:astral_garden",
+          "parameters": {
+            "temperature": [
+              -0.15,
+              0.2
+            ],
+            "humidity": [
+              0.3,
+              1
+            ],
+            "continentalness": [
+              0.3,
+              1
+            ],
+            "erosion": [
+              -0.7799,
+              -0.375
+            ],
+            "weirdness": [
+              0.9333,
+              1
+            ],
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "astral_plane:astral_garden",
+          "parameters": {
+            "temperature": [
+              -0.15,
+              0.2
+            ],
+            "humidity": [
+              0.3,
+              1
+            ],
+            "continentalness": [
+              0.3,
+              1
+            ],
+            "erosion": [
+              -0.7799,
+              -0.375
+            ],
+            "weirdness": [
+              0.9333,
+              1
+            ],
+            "depth": 1,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "astral_plane:astral_garden",
+          "parameters": {
+            "temperature": [
+              -0.15,
+              0.2
+            ],
+            "humidity": [
+              0.3,
+              1
+            ],
+            "continentalness": [
+              0.3,
+              1
+            ],
+            "erosion": [
+              -0.375,
+              -0.2225
+            ],
+            "weirdness": [
+              0.9333,
+              1
+            ],
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "astral_plane:astral_garden",
+          "parameters": {
+            "temperature": [
+              -0.15,
+              0.2
+            ],
+            "humidity": [
+              0.3,
+              1
+            ],
+            "continentalness": [
+              0.3,
+              1
+            ],
+            "erosion": [
+              -0.375,
+              -0.2225
+            ],
+            "weirdness": [
+              0.9333,
+              1
+            ],
+            "depth": 1,
+            "offset": 0
           }
         }
         ]

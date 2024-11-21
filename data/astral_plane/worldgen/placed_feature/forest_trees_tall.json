@@ -1,5 +1,5 @@
 {
-	"feature": "nmr:forest_trees_tall",
+	"feature": "astral_plane:forest_trees_tall",
 	"placement": [
 	  {
 		"type": "minecraft:block_predicate_filter",

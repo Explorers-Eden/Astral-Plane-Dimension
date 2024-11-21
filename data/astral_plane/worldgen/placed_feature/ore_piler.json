@@ -1,5 +1,5 @@
 {
-	"feature": "nmr:ore_piler",
+	"feature": "astral_plane:ore_piler",
 	"placement": [
 		{
 			"type": "minecraft:count",

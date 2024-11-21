@@ -1,5 +1,5 @@
 {
-    "feature": "nmr:disk_sculk",
+    "feature": "astral_plane:disk_sculk",
     "placement": [
       {
         "type": "minecraft:count",
