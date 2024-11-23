@@ -138,7 +138,8 @@
     ],
     [
       "minecraft:patch_dead_bush_2",
-      "astral_plane:light_piler"
+      "astral_plane:light_piler",
+      "astral_plane:open_eyeblossom"
     ],
     []
   ]

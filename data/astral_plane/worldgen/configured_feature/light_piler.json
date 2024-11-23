@@ -49,7 +49,7 @@
             "data": {
               "Name": "minecraft:light",
               "Properties": {
-                "level": "8",
+                "level": "7",
                 "waterlogged": "false"
               }
             }

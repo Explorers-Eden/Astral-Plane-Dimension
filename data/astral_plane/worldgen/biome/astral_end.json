@@ -1,0 +1,132 @@
+{
+  "temperature": 2,
+  "downfall": 0.4,
+  "has_precipitation": false,
+  "creature_spawn_probability": 0.01,
+  "effects": {
+    "sky_color": 3015237,
+    "fog_color": 3414078,
+    "water_color": 1907484,
+    "water_fog_color": 3355443,
+    "grass_color": 4933961,
+    "foliage_color": 2697513,
+    "ambient_sound": {
+      "sound_id": "minecraft:ambient.soul_sand_valley.loop"
+    },
+    "mood_sound": {
+      "sound": "minecraft:ambient.soul_sand_valley.mood",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2
+    },
+    "additions_sound": {
+      "sound": {
+        "sound_id": "minecraft:ambient.soul_sand_valley.additions"
+      },
+      "tick_chance": 0.0111
+    },
+    "music": [
+      {
+        "weight": 1,
+        "data": {
+          "sound": {
+            "sound_id": "minecraft:music.nether.soul_sand_valley"
+          },
+          "min_delay": 12000,
+          "max_delay": 24000,
+          "replace_current_music": false
+        }
+      }
+    ],
+    "music_volume": 1,
+    "particle": {
+      "options": {
+        "type": "minecraft:witch"
+      },
+      "probability": 0.003
+    }
+  },
+  "spawners": {
+    "ambient": [],
+    "axolotls": [],
+    "creature": [],
+    "misc": [],
+    "monster": [
+      {
+        "type": "minecraft:enderman",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 10
+      },
+      {
+        "type": "minecraft:shulker",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 10
+      },
+      {
+        "type": "minecraft:phantom",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 10
+      },
+      {
+        "type": "minecraft:wither_skeleton",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 2
+      }
+    ],
+    "underground_water_creature": [],
+    "water_ambient": [],
+    "water_creature": []
+  },
+  "spawn_costs": {},
+  "carvers": [
+    "minecraft:nether_cave"
+  ],
+  "features": [
+    [],
+    [],
+    [
+      "minecraft:spring_open",
+      "minecraft:spring_closed"
+    ],
+    [
+      "astral_plane:end_piler"
+    ],
+    [],
+    [
+      "astral_plane:end_stone"
+    ],
+    [
+      "minecraft:ore_tuff",
+      "minecraft:ore_coal_upper",
+      "minecraft:ore_coal_lower",
+      "minecraft:ore_iron_upper",
+      "minecraft:ore_iron_middle",
+      "minecraft:ore_iron_small",
+      "minecraft:ore_gold",
+      "minecraft:ore_gold_lower",
+      "minecraft:ore_redstone",
+      "minecraft:ore_redstone_lower",
+      "minecraft:ore_diamond",
+      "minecraft:ore_diamond_medium",
+      "minecraft:ore_diamond_large",
+      "minecraft:ore_diamond_buried",
+      "minecraft:ore_lapis",
+      "minecraft:ore_lapis_buried",
+      "minecraft:ore_copper",
+      "minecraft:underwater_magma"
+    ],
+    [],
+    [
+      "astral_plane:soul_fire"
+    ],
+    [
+      "astral_plane:chorus_plant",
+      "astral_plane:amethysts"
+    ],
+    []
+  ]
+}

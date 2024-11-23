@@ -98,36 +98,6 @@
 		{
 		  "type": "minecraft:condition",
 		  "if_true": {
-			"type": "minecraft:y_above",
-			"anchor": {
-			  "absolute": -45
-			},
-			"surface_depth_multiplier": 0,
-			"add_stone_depth": false
-		  },
-		  "then_run": {
-			"type": "minecraft:condition",
-			"if_true": {
-			  "type": "minecraft:vertical_gradient",
-			  "random_name": "wool_gradient",
-			  "true_at_and_below": {
-				"absolute": -100
-			  },
-			  "false_at_and_above": {
-				"absolute": 20
-			  }
-			},
-			"then_run": {
-			  "type": "minecraft:block",
-			  "result_state": {
-				"Name": "minecraft:black_wool"
-			  }
-			}
-		  }
-		},
-		{
-		  "type": "minecraft:condition",
-		  "if_true": {
 			"type": "minecraft:not",
 			"invert": {
 			  "type": "minecraft:water",

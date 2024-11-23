@@ -43,7 +43,7 @@
         "type": "minecraft:matching_blocks",
         "blocks": [
           "minecraft:mud",
-          "minecraft:blackstone"
+          "minecraft:deepslate"
         ]
       },
       "radius": 7,

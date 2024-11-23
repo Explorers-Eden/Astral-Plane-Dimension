@@ -102,8 +102,7 @@
       [],
       [
         "minecraft:spring_water",
-        "minecraft:spring_lava",
-        "astral_plane:soul_fire"
+        "minecraft:spring_lava"
       ],
       [
         "minecraft:glow_lichen",

@@ -1,0 +1,10 @@
+{
+    "condition": "minecraft:location_check",
+    "predicate": {
+      "dimension": "eden:astral_plane",
+      "block": {
+        "blocks": "minecraft:end_gateway"
+      }
+    }
+  }
+  
