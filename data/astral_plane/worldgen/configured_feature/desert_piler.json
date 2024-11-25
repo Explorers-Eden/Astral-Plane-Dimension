@@ -7,13 +7,7 @@
 				{
 					"weight": 1,
 					"data": {
-						"Name": "minecraft:basalt"
-					}
-				},
-                {
-					"weight": 1,
-					"data": {
-						"Name": "minecraft:smooth_basalt"
+						"Name": "minecraft:dripstone_block"
 					}
 				}
 			]

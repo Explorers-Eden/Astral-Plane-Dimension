@@ -23,12 +23,6 @@
 			"data": {
 			  "Name": "minecraft:obsidian"
 			}
-		  },
-		  {
-			"weight": 10,
-			"data": {
-			  "Name": "minecraft:crying_obsidian"
-			}
 		  }
 		]
 	  },

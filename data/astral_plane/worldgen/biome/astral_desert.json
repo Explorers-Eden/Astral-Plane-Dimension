@@ -4,12 +4,12 @@
   "has_precipitation": false,
   "creature_spawn_probability": 0.01,
   "effects": {
-    "sky_color": 206435,
-    "fog_color": 1979223,
-    "water_color": 1907484,
-    "water_fog_color": 3355443,
-    "grass_color": 4933961,
-    "foliage_color": 2697513,
+    "sky_color": 3218690,
+    "fog_color": 4401940,
+    "water_color": 3613446,
+    "water_fog_color": 3811086,
+    "grass_color": 4793875,
+    "foliage_color": 4662794,
     "ambient_sound": {
       "sound_id": "minecraft:ambient.soul_sand_valley.loop"
     },
@@ -96,8 +96,8 @@
   },
   "spawn_costs": {},
   "carvers": [
-      "minecraft:nether_cave"
-    ],
+    "astral_plane:canyon"
+  ],
   "features": [
     [],
     [],
@@ -110,36 +110,28 @@
     ],
     [],
     [
-      "astral_plane:soul_sand"
+      "astral_plane:dripstone_block",
+      "astral_plane:soul_soil"
     ],
     [
-      "minecraft:ore_tuff",
-      "minecraft:ore_coal_upper",
-      "minecraft:ore_coal_lower",
-      "minecraft:ore_iron_upper",
-      "minecraft:ore_iron_middle",
-      "minecraft:ore_iron_small",
-      "minecraft:ore_gold",
-      "minecraft:ore_gold_lower",
-      "minecraft:ore_redstone",
-      "minecraft:ore_redstone_lower",
-      "minecraft:ore_diamond",
-      "minecraft:ore_diamond_medium",
-      "minecraft:ore_diamond_large",
-      "minecraft:ore_diamond_buried",
-      "minecraft:ore_lapis",
-      "minecraft:ore_lapis_buried",
-      "minecraft:ore_copper",
+      "astral_plane:gilded_blackstone_large",
+      "astral_plane:gilded_blackstone_small",
+      "astral_plane:ancient_debris",
+      "astral_plane:raw_copper_block",
+      "astral_plane:raw_iron_block",
+      "astral_plane:raw_gold_block",
+      "astral_plane:ore_tuff",
       "minecraft:underwater_magma"
     ],
-    [],
+    [
+      "minecraft:dripstone_cluster"
+    ],
     [
       "astral_plane:soul_fire"
     ],
     [
       "minecraft:patch_dead_bush_2",
-      "astral_plane:light_piler",
-      "astral_plane:open_eyeblossom"
+      "astral_plane:light_piler"
     ],
     []
   ]

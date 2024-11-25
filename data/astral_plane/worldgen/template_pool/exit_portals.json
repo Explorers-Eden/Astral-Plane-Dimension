@@ -46,6 +46,24 @@
                 "location": "astral_plane:exit_portals/exit_portal_5",
                 "processors": "astral_plane:exit_portal"
             }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element",
+                "location": "astral_plane:exit_portals/exit_portal_6",
+                "processors": "astral_plane:exit_portal"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element",
+                "location": "astral_plane:exit_portals/exit_portal_7",
+                "processors": "astral_plane:exit_portal"
+            }
         }
     ]
 }

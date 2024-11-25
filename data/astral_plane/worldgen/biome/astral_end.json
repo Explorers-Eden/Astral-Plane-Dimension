@@ -6,10 +6,10 @@
   "effects": {
     "sky_color": 3015237,
     "fog_color": 3414078,
-    "water_color": 1907484,
-    "water_fog_color": 3355443,
-    "grass_color": 4933961,
-    "foliage_color": 2697513,
+    "water_color": 3087919,
+    "water_fog_color": 2823989,
+    "grass_color": 2694192,
+    "foliage_color": 3150140,
     "ambient_sound": {
       "sound_id": "minecraft:ambient.soul_sand_valley.loop"
     },
@@ -54,27 +54,27 @@
     "monster": [
       {
         "type": "minecraft:enderman",
-        "maxCount": 4,
+        "weight": 10,
         "minCount": 4,
-        "weight": 10
+        "maxCount": 4
       },
       {
         "type": "minecraft:shulker",
-        "maxCount": 4,
+        "weight": 10,
         "minCount": 4,
-        "weight": 10
+        "maxCount": 4
       },
       {
         "type": "minecraft:phantom",
-        "maxCount": 4,
+        "weight": 10,
         "minCount": 4,
-        "weight": 10
+        "maxCount": 4
       },
       {
         "type": "minecraft:wither_skeleton",
-        "maxCount": 4,
+        "weight": 2,
         "minCount": 4,
-        "weight": 2
+        "maxCount": 4
       }
     ],
     "underground_water_creature": [],
@@ -83,7 +83,9 @@
   },
   "spawn_costs": {},
   "carvers": [
-    "minecraft:nether_cave"
+    "astral_plane:canyon",
+      "astral_plane:cave",
+      "astral_plane:cave_extra_underground"
   ],
   "features": [
     [],
@@ -92,31 +94,19 @@
       "minecraft:spring_open",
       "minecraft:spring_closed"
     ],
-    [
-      "astral_plane:end_piler"
-    ],
+    [],
     [],
     [
-      "astral_plane:end_stone"
+      "astral_plane:end_stone_bricks"
     ],
     [
-      "minecraft:ore_tuff",
-      "minecraft:ore_coal_upper",
-      "minecraft:ore_coal_lower",
-      "minecraft:ore_iron_upper",
-      "minecraft:ore_iron_middle",
-      "minecraft:ore_iron_small",
-      "minecraft:ore_gold",
-      "minecraft:ore_gold_lower",
-      "minecraft:ore_redstone",
-      "minecraft:ore_redstone_lower",
-      "minecraft:ore_diamond",
-      "minecraft:ore_diamond_medium",
-      "minecraft:ore_diamond_large",
-      "minecraft:ore_diamond_buried",
-      "minecraft:ore_lapis",
-      "minecraft:ore_lapis_buried",
-      "minecraft:ore_copper",
+      "astral_plane:gilded_blackstone_large",
+      "astral_plane:gilded_blackstone_small",
+      "astral_plane:ancient_debris",
+      "astral_plane:raw_copper_block",
+      "astral_plane:raw_iron_block",
+      "astral_plane:raw_gold_block",
+      "astral_plane:ore_tuff",
       "minecraft:underwater_magma"
     ],
     [],

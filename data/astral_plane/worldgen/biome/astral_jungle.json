@@ -4,8 +4,8 @@
   "has_precipitation": false,
   "creature_spawn_probability": 0.01,
   "effects": {
-    "sky_color": 206435,
-    "fog_color": 1979223,
+    "sky_color": 1973791,
+    "fog_color": 2171169,
     "water_color": 1907484,
     "water_fog_color": 3355443,
     "grass_color": 4933961,
@@ -35,9 +35,9 @@
     "music_volume": 1,
     "particle": {
       "options": {
-        "type": "minecraft:sculk_soul"
+        "type": "minecraft:infested"
       },
-      "probability": 0.001
+      "probability": 0.002
     }
   },
   "spawners": {
@@ -121,11 +121,10 @@
     }
   },
   "carvers": [
-      "minecraft:canyon",
-      "minecraft:cave",
-      "minecraft:cave_extra_underground",
-      "minecraft:nether_cave"
-    ],
+    "astral_plane:canyon",
+    "astral_plane:cave",
+    "astral_plane:cave_extra_underground"
+  ],
   "features": [
     [],
     [],
@@ -134,29 +133,21 @@
     [],
     [],
     [
-      "minecraft:ore_tuff",
-      "minecraft:ore_coal_upper",
-      "minecraft:ore_coal_lower",
-      "minecraft:ore_iron_upper",
-      "minecraft:ore_iron_middle",
-      "minecraft:ore_iron_small",
-      "minecraft:ore_gold",
-      "minecraft:ore_gold_lower",
-      "minecraft:ore_redstone",
-      "minecraft:ore_redstone_lower",
-      "minecraft:ore_diamond",
-      "minecraft:ore_diamond_medium",
-      "minecraft:ore_diamond_large",
-      "minecraft:ore_diamond_buried",
-      "minecraft:ore_lapis",
-      "minecraft:ore_lapis_buried",
-      "minecraft:ore_copper",
+      "astral_plane:gilded_blackstone_large",
+      "astral_plane:gilded_blackstone_small",
+      "astral_plane:ancient_debris",
+      "astral_plane:raw_copper_block",
+      "astral_plane:raw_iron_block",
+      "astral_plane:raw_gold_block",
+      "astral_plane:ore_tuff",
       "minecraft:underwater_magma"
     ],
     [],
     [
       "astral_plane:small_tree",
-      "astral_plane:jungle_bush"
+      "astral_plane:jungle_bush",
+      "astral_plane:spring_water",
+      "astral_plane:spring_lava"
     ],
     [
       "astral_plane:small_tree",
